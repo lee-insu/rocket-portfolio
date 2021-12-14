@@ -1,0 +1,76 @@
+.row {
+  width: auto;
+  min-height: 100vh;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+  background: radial-gradient(#482798, #00092b);
+  overflow: hidden;
+}
+
+.introduce {
+  z-index: 200;
+}
+
+.nav {
+  background-color: #ffaaff;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.planet1 {
+  top: -70px;
+  left: -70px;
+  z-index: 10;
+}
+
+.planet2 {
+  position: absolute;
+  right: -5%;
+  top: 65px;
+  z-index: 10;
+}
+
+.planet3 {
+  left: 41.04%;
+  right: 51.04%;
+  top: 50.43%;
+  bottom: 30.66%;
+  z-index: 10;
+}
+
+.background2 {
+  bottom: -200px;
+  margin: 0 auto;
+  left: 20px;
+  z-index: 1;
+}
+
+.background1 {
+  bottom: -180px;
+  margin: 0 auto;
+  left: -200px;
+  z-index: 2;
+}
+.background1_turn {
+  transform: rotate(-5.09deg);
+  -webkit-transform: rotate(-5.09deg);
+  -moz-transform: rotate(-5.09deg);
+  -o-transform: rotate(-5.09deg);
+}
+
+.background1_copy {
+  bottom: -130px;
+  margin: 0 auto;
+  right: -150px;
+  z-index: 2;
+}
+
+.background1_turn_copy {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}

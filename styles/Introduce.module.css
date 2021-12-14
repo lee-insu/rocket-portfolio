@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+  color: #fff;
+}
+
+.row {
+  margin: 0 auto;
+  padding: 150px 50px;
+  height: auto;
+}
+
+.hello {
+  font-family: protendard;
+  font-weight: 700;
+  font-size: 50px;
+  top: 15px;
+}
+
+.sub_title {
+  font-family: protendard;
+  font-weight: 700;
+  font-size: 19px;
+  top: 5px;
+}
+
+.text {
+  margin-top: 52px;
+}
+
+.text > p {
+  font-family: protendard;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.au {
+  width: 100%;
+  background-color: blue;
+}
