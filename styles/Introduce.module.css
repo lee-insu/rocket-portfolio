@@ -1,42 +1,150 @@
 .container {
-  position: relative;
-  margin: 0 auto;
-  width: 80%;
-  height: auto;
+  padding: 150px 0px;
+  font-family: protendard;
   color: #fff;
 }
 
-.row {
-  margin: 0 auto;
-  padding: 150px 50px;
-  height: auto;
+.title_img {
+  text-align: right;
 }
 
-.hello {
-  font-family: protendard;
+.title {
   font-weight: 700;
-  font-size: 50px;
-  top: 15px;
+  font-size: 55px;
+  top: 10px;
 }
 
 .sub_title {
-  font-family: protendard;
   font-weight: 700;
-  font-size: 19px;
-  top: 5px;
+  font-size: 22px;
 }
 
 .text {
-  margin-top: 52px;
+  left: 15%;
+  margin-top: 50px;
 }
 
 .text > p {
-  font-family: protendard;
   font-size: 18px;
   font-weight: 400;
 }
 
-.au {
+.link {
   width: 100%;
-  background-color: blue;
+  margin-top: 25px;
+  padding-left: 15%;
+}
+
+.circle {
+  border: 0px solid;
+  padding: 15px 10px;
+  background-color: red;
+  border-radius: 90px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* lg와 xl 사이 어딘가 */
+
+  .title_img {
+    top: 20px;
+  }
+
+  .text {
+    left: 10%;
+  }
+}
+
+@media screen and (min-width: 1141px) and (max-width: 1280px) {
+  /* lg와 xl 사이 어딘가 */
+
+  .title_img {
+    top: 20px;
+  }
+  .text {
+    left: 10%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1140px) {
+  /* lg */
+
+  .title_img {
+    top: 20px;
+  }
+  .text {
+    left: 10%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  /* md */
+  .container {
+    padding: 0px;
+  }
+
+  .title_img {
+    top: 10px;
+  }
+  .title {
+    top: 15px;
+    font-size: 30px;
+  }
+
+  .sub_title {
+    top: 5px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .text {
+    margin-top: 20px;
+    left: 20px;
+  }
+
+  .text {
+    border: 0px solid;
+    padding: 20px 10px;
+    background-color: rgba(41, 40, 103, 0.6);
+    border-radius: 25px;
+    text-align: center;
+    left: 0%;
+  }
+
+  .link {
+    margin: 10px auto;
+  }
+
+  .circle {
+    left: 24%;
+    padding: 0;
+    border: 0px;
+    background: none;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* sm */
+  .container {
+    padding: 5px 0;
+  }
+
+  .title_img {
+    top: 10px;
+    margin-left: 5px;
+  }
+  .title {
+    top: 10px;
+    font-size: 30px;
+  }
+
+  .sub_title {
+    top: 0px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .link {
+    display: none;
+  }
 }

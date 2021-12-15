@@ -23,14 +23,14 @@
 .planet1 {
   top: -70px;
   left: -70px;
-  z-index: 10;
+  z-index: 100;
 }
 
 .planet2 {
   position: absolute;
   right: -5%;
   top: 65px;
-  z-index: 10;
+  z-index: 100;
 }
 
 .planet3 {
@@ -38,21 +38,21 @@
   right: 51.04%;
   top: 50.43%;
   bottom: 30.66%;
-  z-index: 10;
+  z-index: 100;
 }
 
 .background2 {
   bottom: -200px;
   margin: 0 auto;
   left: 20px;
-  z-index: 1;
+  z-index: 10;
 }
 
 .background1 {
   bottom: -180px;
   margin: 0 auto;
   left: -200px;
-  z-index: 2;
+  z-index: 20;
 }
 .background1_turn {
   transform: rotate(-5.09deg);
@@ -65,7 +65,7 @@
   bottom: -130px;
   margin: 0 auto;
   right: -150px;
-  z-index: 2;
+  z-index: 20;
 }
 
 .background1_turn_copy {
@@ -73,4 +73,22 @@
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
+}
+
+.rocket {
+  top: 40%;
+  z-index: 100;
+  right: 20%;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  /* md */
+  .row {
+    min-height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .row {
+    min-height: auto;
+  }
 }

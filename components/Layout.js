@@ -10,7 +10,7 @@ import classnames from "classnames";
 
 const Layout = ({ children }) => {
   return (
-    <Row type="flex" className={style.row}>
+    <Row gutter={[0, 0]} type="flex" className={style.row}>
       <motion.div
         animate={{ opacity: 0.6, y: 0 }}
         initial={{ opacity: 0, y: 30 }}
@@ -67,6 +67,21 @@ const Layout = ({ children }) => {
           alt="background2"
           width={1640}
           height={538}
+        />
+      </motion.div>
+
+      <motion.div
+        animate={{ opacity: 0.2, x: 0, y: 0 }}
+        initial={{ opacity: 0, x: -30, y: 50 }}
+        exit={{ opacity: 0, y: -50 }}
+        transition={{ duration: 0.7 }}
+        className={classnames(style.absolute, style.rocket)}
+      >
+        <Image
+          src={"/images/rocket.svg"}
+          alt="background2"
+          width={120}
+          height={130}
         />
       </motion.div>
 
