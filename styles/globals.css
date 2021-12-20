@@ -43,3 +43,82 @@ a {
   font-weight: 900;
   src: url("/fonts/Pretendard-Black.woff2") format("woff2");
 }
+
+.swiper {
+  width: 800px;
+  height: 560px;
+}
+
+.swiper > section {
+  background: none;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-weight: bold;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: rgb(255, 255, 255);
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: #fff;
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(10, 184, 111);
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+
+.ant-modal-footer {
+  background-color: #1a1325;
+  border: 0 solid;
+}
+.ant-modal-header {
+  background-color: #1a1325;
+  border: 0 solid;
+}
+.ant-modal-title {
+  font-family: protendard;
+  font-weight: 400;
+  font-size: 23px;
+  color: #fff;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .swiper {
+    width: 640px;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 1141px) and (max-width: 1280px) {
+  .swiper {
+    width: 480px;
+    height: 320px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1140px) {
+  .swiper {
+    width: 480px;
+    height: 320px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .swiper {
+    width: 640px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .swiper {
+    width: 500px;
+    height: 500px;
+  }
+}

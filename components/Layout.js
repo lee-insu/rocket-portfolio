@@ -11,6 +11,15 @@ import classnames from "classnames";
 const Layout = ({ children }) => {
   return (
     <Row gutter={[0, 0]} type="flex" className={style.row}>
+      <Col xs={24} sm={24} md={24} lg={8} xl={8} className={style.introduce}>
+        <Introduce />
+      </Col>
+      <Col xs={24} sm={24} md={24} lg={1} xl={1} className={style.nav}>
+        <Nav />
+      </Col>
+      <Col xs={24} sm={24} md={24} lg={15} xl={15} className={style.page}>
+        {children}
+      </Col>
       <motion.div
         animate={{ opacity: 0.6, y: 0 }}
         initial={{ opacity: 0, y: 30 }}
@@ -115,15 +124,6 @@ const Layout = ({ children }) => {
           className={style.background1_turn_copy}
         />
       </motion.div>
-      <Col xs={24} sm={24} md={24} lg={8} xl={8} className={style.introduce}>
-        <Introduce />
-      </Col>
-      <Col xs={24} sm={24} md={24} lg={1} xl={1} className={style.nav}>
-        <Nav />
-      </Col>
-      <Col xs={24} sm={24} md={24} lg={15} xl={15} className={style.page}>
-        {children}
-      </Col>
     </Row>
   );
 };

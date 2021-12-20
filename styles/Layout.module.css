@@ -8,8 +8,12 @@
   overflow: hidden;
 }
 
+.page {
+  z-index: 1000;
+}
+
 .introduce {
-  z-index: 200;
+  z-index: 1000;
 }
 
 .nav {
@@ -76,9 +80,9 @@
 }
 
 .rocket {
-  top: 40%;
+  top: 15%;
   z-index: 100;
-  right: 20%;
+  right: 18%;
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
