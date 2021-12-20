@@ -1,0 +1,184 @@
+.nav {
+  color: rgb(207, 207, 207);
+}
+
+.sub {
+  position: absolute;
+  visibility: hidden;
+  font-family: protendard;
+  font-weight: 500;
+  font-size: 22px;
+  top: -4px;
+  left: 37px;
+}
+
+.container {
+  height: 30vh;
+  margin-top: 30vh;
+}
+.container > div {
+  left: 38%;
+  font-size: 24px;
+}
+
+.container > div > a:hover {
+  color: rgb(247, 247, 247);
+}
+
+.active {
+  color: #fff;
+}
+.project {
+  position: relative;
+  display: block;
+}
+
+.stacks {
+  position: relative;
+  display: block;
+}
+
+.activity {
+  position: relative;
+  display: block;
+}
+
+.project > .tooltip {
+  visibility: hidden;
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  top: 3px;
+  right: 93px;
+  font-family: pretendard;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
+  background: #1a1325;
+  color: #fff;
+  border: 0px;
+  padding: 2px 2px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
+}
+
+.stacks > .tooltip {
+  visibility: hidden;
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  top: 3px;
+  right: 93px;
+  font-family: pretendard;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
+  background: #1a1325;
+  color: #fff;
+  border: 0px;
+  padding: 2px 2px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
+}
+
+.activity > .tooltip {
+  visibility: hidden;
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  top: 3px;
+  right: 93px;
+  font-family: pretendard;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
+  background: #1a1325;
+  color: #fff;
+  border: 0px;
+  padding: 2px 2px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
+}
+
+.project:hover > .tooltip {
+  visibility: visible;
+  animation: fadein 0.3s;
+  -moz-animation: fadein 0.3s;
+  -webkit-animation: fadein 0.3s;
+  -o-animation: fadein 0.3s;
+}
+
+.stacks:hover > .tooltip {
+  visibility: visible;
+  animation: fadein 0.3s;
+  -moz-animation: fadein 0.3s;
+  -webkit-animation: fadein 0.3s;
+  -o-animation: fadein 0.3s;
+}
+
+.activity:hover > .tooltip {
+  visibility: visible;
+  animation: fadein 0.3s;
+  -moz-animation: fadein 0.3s;
+  -webkit-animation: fadein 0.3s;
+  -o-animation: fadein 0.3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .container {
+    height: 2vh;
+    margin: 0;
+  }
+
+  .container > div {
+    left: 10%;
+    font-size: 22px;
+  }
+  .project:hover > .tooltip {
+    visibility: hidden;
+  }
+  .stacks:hover > .tooltip {
+    visibility: hidden;
+  }
+  .activity:hover > .tooltip {
+    visibility: hidden;
+  }
+  .sub {
+    visibility: visible;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    height: 2vh;
+    margin: 0;
+  }
+
+  .container > div {
+    left: 10%;
+    font-size: 22px;
+  }
+  .project:hover > .tooltip {
+    visibility: hidden;
+  }
+  .stacks:hover > .tooltip {
+    visibility: hidden;
+  }
+  .activity:hover > .tooltip {
+    visibility: hidden;
+  }
+  .sub {
+    visibility: visible;
+  }
+}

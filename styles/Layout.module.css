@@ -17,7 +17,7 @@
 }
 
 .nav {
-  background-color: #ffaaff;
+  z-index: 2000;
 }
 
 .absolute {
@@ -90,9 +90,22 @@
   .row {
     min-height: auto;
   }
+  .nav {
+    height: auto;
+  }
+  .page {
+    margin-top: 4rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .row {
     min-height: auto;
+  }
+  .nav {
+    height: auto;
+    margin-top: 1rem;
+  }
+  .page {
+    margin-top: 2rem;
   }
 }

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Col, Row, Divider, Modal, Button } from "antd";
+import { Col, Row, Divider, Modal } from "antd";
 import "antd/dist/antd.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { EffectCards } from "swiper";
@@ -75,7 +75,7 @@ export default function Home() {
         <p>{article.content}</p>
       </Modal>
       <Row gutter={[0, 12]}>
-        <Col xs={24} sm={24} md={24} lg={24} xl={24}>
+        <Col xs={0} sm={0} md={0} lg={24} xl={24}>
           <Divider
             orientation="left"
             style={{

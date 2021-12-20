@@ -110,7 +110,7 @@
   }
 
   .link {
-    margin: 10px auto;
+    visibility: hidden;
   }
 
   .circle {
