@@ -147,4 +147,17 @@
   .link {
     display: none;
   }
+  .text {
+    margin-top: 20px;
+    left: 20px;
+  }
+
+  .text {
+    border: 0px solid;
+    padding: 20px 10px;
+    background-color: rgba(41, 40, 103, 0.6);
+    border-radius: 25px;
+    text-align: center;
+    left: 0%;
+  }
 }

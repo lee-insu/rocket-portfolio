@@ -9,7 +9,7 @@ const Introduce = () => {
       <Row gutter={{ xs: 8, sm: 8, md: 8, xl: 8 }} className={style.row}>
         <Col xl={3} md={3} lg={6} xl={6} xxl={8} className={style.title_img}>
           <Avatar
-            src={<Image src="https://joeschmoe.io/api/v1/random" />}
+            src="https://joeschmoe.io/api/v1/random"
             style={{
               backgroundColor: "#fff",
             }}

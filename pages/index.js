@@ -49,7 +49,7 @@ export default function Home() {
   return (
     <div className={style.container}>
       <Head>
-        <title>로켓 성장 이인수</title>
+        <title>로켓 성장 이인수 : 프로젝트</title>
       </Head>
       <Modal
         className={style.modal}
@@ -85,7 +85,7 @@ export default function Home() {
               color: "#fff",
             }}
           >
-            프로젝트
+            PROJECT
           </Divider>
         </Col>
         <motion.div

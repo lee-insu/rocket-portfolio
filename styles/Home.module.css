@@ -108,7 +108,30 @@
 
 @media screen and (max-width: 768px) {
   .container {
-    padding: 10px 0px 0px 10%;
-    height: 100vh;
+    padding: 30px 0px 5% 15%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 658px) {
+  .container {
+    position: relative;
+    padding: 20px 0;
+    left: 7%;
+    height: 90vh;
+  }
+  .script > :nth-child(1) {
+    font-size: 15px;
+    font-weight: 900;
+  }
+
+  .script > :nth-child(2) {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .script > :nth-child(3) {
+    font-size: 9px;
+    font-weight: 500;
   }
 }
