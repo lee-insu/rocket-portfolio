@@ -34,13 +34,14 @@ const Stacks = () => {
       img: "/images/stacks/js.png",
     },
     {
-      title: "NextJS",
-      img: "/images/stacks/nextjs.png",
-    },
-    {
       title: "React",
       img: "/images/stacks/react.png",
     },
+    {
+      title: "NextJS",
+      img: "/images/stacks/nextjs.png",
+    },
+
     {
       title: "Redux",
       img: "/images/stacks/redux.png",
@@ -157,7 +158,7 @@ const Stacks = () => {
         </Col>
         <Col className={style.stack} xs={24} sm={24} md={24} lg={24} xl={18}>
           <List
-            grid={{ gutter: [20, 20], column: size.width >= 658 ? 4 : 2 }}
+            grid={{ gutter: [20, 20], column: size.width <= 658 ? 2 : 4 }}
             dataSource={data}
             renderItem={(item) => (
               <List.Item>

@@ -4,7 +4,7 @@ import { Col, Row, Divider, Modal } from "antd";
 import "antd/dist/antd.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { EffectCards } from "swiper";
-import style from "../styles/Home.module.css";
+import style from "../styles/Project.module.css";
 import "swiper/css";
 import "swiper/css/effect-cards";
 import { motion } from "framer-motion";
@@ -41,7 +41,6 @@ export default function Home() {
     });
   };
 
-  console.log(article);
   const handleOk = () => {
     setIsModalVisible(false);
   };

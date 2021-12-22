@@ -1,0 +1,137 @@
+.container {
+  padding: 150px;
+  font-family: protendard;
+}
+.back {
+  background: none;
+}
+.img {
+  width: 120%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.modal {
+  z-index: 2000;
+  color: #fff;
+}
+
+.script {
+  position: absolute;
+  z-index: 9;
+  bottom: 5%;
+  left: 5%;
+}
+
+.script > :nth-child(1) {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.script > :nth-child(2) {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.script > :nth-child(3) {
+  font-size: 15px;
+  font-weight: 500;
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .container {
+    padding: 160px 0px 0px 17%;
+  }
+
+  .script > :nth-child(1) {
+    font-size: 22px;
+    font-weight: 900;
+  }
+
+  .script > :nth-child(2) {
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .script > :nth-child(3) {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 1141px) and (max-width: 1280px) {
+  .container {
+    padding: 150px 0px 0px 20%;
+  }
+
+  .script > :nth-child(1) {
+    font-size: 19px;
+    font-weight: 900;
+  }
+
+  .script > :nth-child(2) {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .script > :nth-child(3) {
+    font-size: 9px;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1140px) {
+  /* lg */
+  .container {
+    padding: 150px 0px 0px 15%;
+  }
+
+  .script > :nth-child(1) {
+    font-size: 19px;
+    font-weight: 900;
+  }
+
+  .script > :nth-child(2) {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .script > :nth-child(3) {
+    font-size: 9px;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .container {
+    padding: 10px 0px 10% 12%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 30px 0px 5% 15%;
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 658px) {
+  .container {
+    position: relative;
+    padding: 20px 0;
+    left: 7%;
+    height: 90vh;
+  }
+  .script > :nth-child(1) {
+    font-size: 15px;
+    font-weight: 900;
+  }
+
+  .script > :nth-child(2) {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .script > :nth-child(3) {
+    font-size: 9px;
+    font-weight: 500;
+  }
+}
