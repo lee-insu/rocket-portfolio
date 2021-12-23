@@ -16,16 +16,18 @@ const Nav = () => {
     <nav className={style.nav}>
       <Row gutter={[0, 0]} type="flex" className={style.container}>
         <Col xs={8} sm={8} md={8} lg={24} xl={24} className={style.project}>
-          <Link href="/">
+          <Link href="/project">
             <a style={{ display: "flex" }}>
               <FontAwesomeIcon
                 icon={faCode}
-                className={router.pathname == "/" ? style.active : "null"}
+                className={
+                  router.pathname == "/project" ? style.active : "null"
+                }
               />
               <div
                 className={classnames(
                   style.sub,
-                  router.pathname == "/" ? style.active : "null"
+                  router.pathname == "/project" ? style.active : "null"
                 )}
               >
                 Project
@@ -35,16 +37,16 @@ const Nav = () => {
           <div className={style.tooltip}>Project</div>
         </Col>
         <Col xs={8} sm={8} md={8} lg={24} xl={24} className={style.stacks}>
-          <Link href="/stacks">
+          <Link href="/">
             <a style={{ display: "flex" }}>
               <FontAwesomeIcon
                 icon={faBookOpen}
-                className={router.pathname == "/stacks" ? style.active : "null"}
+                className={router.pathname == "/" ? style.active : "null"}
               />
               <div
                 className={classnames(
                   style.sub,
-                  router.pathname == "/stacks" ? style.active : "null"
+                  router.pathname == "/" ? style.active : "null"
                 )}
               >
                 Stacks

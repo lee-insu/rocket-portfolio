@@ -14,8 +14,30 @@
   margin-top: 1rem;
 }
 .modal {
-  z-index: 2000;
+  z-index: 7000;
   color: #fff;
+}
+
+.article {
+  margin: 10px 0;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 150%;
+}
+.blog {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 30px;
+  color: rgb(202, 202, 202);
+}
+.link_ul {
+  padding: 20px 0;
+}
+.link {
+  list-style: none;
+  font-weight: 300;
+  font-size: 15px;
+  color: rgb(180, 180, 180);
 }
 
 .stacks:hover {
