@@ -4,58 +4,10 @@ import style from "../styles/Activity.module.css";
 import "antd/dist/antd.css";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { motion } from "framer-motion";
+import { activity } from "../service/data";
 
 const Activity = () => {
-  const data = [
-    {
-      title: "Ant Design Title 1",
-      during: "2020~ 2020",
-      stacks: "react,react,react,react",
-      des: "tigsadmalksdksaldjksaljdsadjklasdjskldjkalsdjkladalkdlkadjsak",
-    },
-    {
-      title: "Ant Design Title 2",
-      during: "2020~ 2020",
-      stacks: "react,react,react,react",
-      des: "ff",
-    },
-    {
-      title: "Ant Design Title 3",
-      during: "2020~ 2020",
-      stacks: "react,react,react,react",
-      des: "ff",
-    },
-    {
-      title: "Ant Design Title 4",
-      during: "2020~ 2020",
-      stacks: "react,react,react,react",
-      des: "ff",
-    },
-    {
-      title: "Ant Design Title 4",
-      during: "2020~ 2020",
-      stacks: "react,react,react,react",
-      des: "ff",
-    },
-    {
-      title: "Ant Design Title 4",
-      during: "2020~ 2020",
-      stacks: "react,react,react,react",
-      des: "ff",
-    },
-    {
-      title: "Ant Design Title 4",
-      during: "2020~ 2020",
-      stacks: "react,react,react,react",
-      des: "ff",
-    },
-    {
-      title: "Ant Design Title 4",
-      during: "2020~ 2020",
-      stacks: "react,react,react,react",
-      des: "ff",
-    },
-  ];
+  const data = activity;
   return (
     <div className={style.container}>
       <Head>
@@ -107,11 +59,25 @@ const Activity = () => {
                       <div className={style.during}>
                         작업(운영) 기간: {item.during}
                       </div>
-                      <div className={style.stacks}>
-                        사용한 기술: {item.stacks}
-                      </div>
+                      {item.stacks ? (
+                        <div className={style.stacks}>
+                          사용한 기술: {item.stacks}
+                        </div>
+                      ) : null}
                       <br />
                       <p className={style.des}>{item.des}</p>
+                      {item.links ? (
+                        <p className={style.related}>
+                          <div className={style.link_title}>관련 링크</div>
+                          <ul className={style.link_ul}>
+                            {item.links.map((link, i) => (
+                              <li className={style.link_li} key={i}>
+                                <a href={link.a}>{link.head}</a>
+                              </li>
+                            ))}
+                          </ul>
+                        </p>
+                      ) : null}
                     </Card>
                   </List.Item>
                 )}

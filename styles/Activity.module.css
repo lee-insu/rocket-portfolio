@@ -22,7 +22,25 @@
 }
 .des {
   font-family: 400;
-  font-size: 18px;
+  font-size: 17px;
+  color: rgb(165, 165, 165);
+  padding: 20px 20px 0 0;
+}
+.link_ul {
+  padding: 0;
+}
+
+.link_title {
+  font-family: 400;
+  font-size: 17px;
+  color: rgb(143, 143, 143);
+  margin-bottom: 5px;
+}
+.link_li {
+  list-style: none;
+  font-family: 400;
+  font-size: 14px;
+  color: rgb(143, 143, 143);
 }
 
 .scroll::-webkit-scrollbar {
@@ -38,6 +56,7 @@
 .scroll::-webkit-scrollbar-track {
   background-color: rgba(93, 33, 133, 0.33);
 }
+
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
   .container {
     padding: 70px 100px;
@@ -61,6 +80,38 @@
 @media screen and (max-width: 768px) {
   .container {
     padding: 0px 10px;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .during,
+  .stacks {
+    font-family: 400;
+    font-size: 12px;
+    color: rgb(204, 204, 204);
+  }
+  .des {
+    font-family: 400;
+    font-size: 15px;
+    color: rgb(165, 165, 165);
+    padding: 20px 20px 0 0;
+  }
+  .link_ul {
+    padding: 0;
+  }
+
+  .link_title {
+    font-family: 400;
+    font-size: 15px;
+    color: rgb(143, 143, 143);
+    margin-bottom: 5px;
+  }
+  .link_li {
+    list-style: none;
+    font-family: 400;
+    font-size: 13px;
+    color: rgb(143, 143, 143);
   }
 }
 @media screen and (max-width: 658px) {

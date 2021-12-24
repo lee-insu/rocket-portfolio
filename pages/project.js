@@ -9,25 +9,11 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { contents } from "../service/data";
 
 SwiperCore.use([EffectCards]);
 
 export default function Home() {
-  const contents = [
-    {
-      id: 1,
-      title: "heyapp",
-      content: "dsakdkkdakdsakdkdsas",
-      image: "/images/ex2.png",
-    },
-    {
-      id: 2,
-      title: "howtofeel",
-      content: "asdasdjaskldasdkal",
-      image: "/images/ex2.png",
-    },
-  ];
-
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [article, getArticle] = useState([]);
 
@@ -89,8 +75,8 @@ export default function Home() {
         </Col>
         <motion.div
           animate={{ opacity: 1, y: 0 }}
-          initial={{ opacity: 0, y: -5 }}
-          exit={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 1, y: -5 }}
+          exit={{ opacity: 1, y: 20 }}
           transition={{ duration: 1 }}
         >
           <Col xs={24} sm={24} md={24} lg={24} xl={24}>
@@ -98,9 +84,9 @@ export default function Home() {
               <SwiperSlide>
                 <div className={style.back}>
                   <div className={style.script}>
-                    <div>헤이앱 디자인 UIUX 분석 사이트</div>
-                    <div>2021.08 ~ 2021.09</div>
-                    <div>javascript,react,firebase,redux</div>
+                    <div>헤이앱 - 디자인 UIUX 분석 사이트</div>
+                    <div>2021.09.03 ~ 2021.11.02</div>
+                    <div>JavaScript, React, Firebase, Redux, Figma</div>
                   </div>
                   <img
                     name="1"
@@ -113,9 +99,9 @@ export default function Home() {
               <SwiperSlide>
                 <div className={style.back}>
                   <div className={style.script}>
-                    <div>헤이앱 디자인 UIUX 분석 사이트</div>
-                    <div>2021.08 ~ 2021.09</div>
-                    <div>javascript,react,firebase,redux</div>
+                    <div>OHCO!- 날씨에 따라 코디를 추천해주는 서비스</div>
+                    <div>2021.05.16 ~ 2021.06.13</div>
+                    <div>JavaScript, React, Firebase</div>
                   </div>
                   <img
                     name="2"
@@ -125,8 +111,36 @@ export default function Home() {
                   />
                 </div>
               </SwiperSlide>
-              <SwiperSlide>Slide 3</SwiperSlide>
-              <SwiperSlide>Slide 4</SwiperSlide>
+              <SwiperSlide>
+                <div className={style.back}>
+                  <div className={style.script}>
+                    <div>코인앵무새 - 크립토 랜덤 게임과 커뮤니티</div>
+                    <div>2021.07.20 ~ 2021.09.01</div>
+                    <div>JavaScript, React, Firebase, Redux</div>
+                  </div>
+                  <img
+                    name="3"
+                    onClick={(e) => showModal(e)}
+                    className={style.img}
+                    src="/images/ex1.png"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className={style.back}>
+                  <div className={style.script}>
+                    <div>오늘의 기분 - 표정을 통해 감정을 알려주는 사이트</div>
+                    <div>2021.02.18 ~ 2021.03.11</div>
+                    <div>JavaScript, Flask, MySQL, EC2</div>
+                  </div>
+                  <img
+                    name="4"
+                    onClick={(e) => showModal(e)}
+                    className={style.img}
+                    src="/images/ex1.png"
+                  />
+                </div>
+              </SwiperSlide>
             </Swiper>
           </Col>
         </motion.div>

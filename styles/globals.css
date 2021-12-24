@@ -70,11 +70,11 @@ a {
 }
 
 .swiper-slide:nth-child(3n) {
-  background-color: rgb(10, 184, 111);
+  background-color: #fff;
 }
 
 .swiper-slide:nth-child(4n) {
-  background-color: rgb(211, 122, 7);
+  background-color: #fff;
 }
 
 .ant-modal-footer {

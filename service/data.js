@@ -86,11 +86,18 @@ const stacks = [
       "Express와 Django, flask 중 flask를 고른 이유는 웹크롤링과 함께 Python의 장점을 살리고 MVT방식인 Django보다 MVC패턴을 활용한 Flask가 더 배우기 쉽고 빠르게 습득할 수 있다는 판단이 들어 배우게 되었습니다. 물론 리얼타임이 훌륭하고 프론트엔드와 병행하기 좋은 Node.js의 express도 생각해봤지만 난이도가 쉬우면서 백엔드의 구조를 파악하기 쉬운 Flask가 더 강점이 있어 보였습니다. Flask로 작업을 해보니 코드 몇 줄이면 바로 시작이 될 만큼 간단하고 직관적인 점이 좋았고 무엇보다 View의 코드를 수정하지 않아도 되는 장점에 잘 활용했습니다.",
   },
   {
+    title: "MySQL",
+    img: "/images/stacks/mysql.png",
+    article:
+      "회원가입과 로그인 기능을 구현하기 위해 활용했습니다. 회원 정보를 저장하는데 컬렉션에 담는 NoSQL 방식보다 덜 유연하지만 정해진 테이블에 저장하면서 명확하게 정의된 구조가 변동사항이 자주 없는 회원 정보를 담는 데이터베이스에 적합하다고 생각했고, 무엇보다 중복 없이 한 번만 저장해서 중요한 데이터에 대해 확실한 저장을 할 수 있겠다는 장점을 경험했습니다.",
+  },
+  {
     title: "Firebase",
     img: "/images/stacks/firebase.png",
     article:
       "firebase는 제가 프로젝트를 진행하면서 가장 잘 활용하고 있는 백엔드 서비스입니다. flask를 통해 빠르게 백엔드에 배운 것은 좋았지만, 인증, 데이터베이스, 스토리지와 같이 더 다양한 기능을 활용하기엔 한계가 있었습니다. 또한, JS에 좀 더 집중하기 위해 더 쉽게 활용할 수 있는 서비스가 필요했는데 그 부족한 점을 채워준 것이 firebase였습니다.firebase를 활용하면서 flask와 mysql를 통해 회원가입 작업을 했던 것도 더 간편하게 설정할 수 있었고, 아이디 찾기와 비밀번호 변경과 같은 복잡한 것도 손쉽게 가능한 것이 장점이었습니다. 그리고 NoSQL기반이기 때문에 MySQL와 같은 관계형 데이터베이스보다 빠르고 간편했습니다. 종종 응답속도가 늦지만, 제가 원하던 프로토타입을 빠르게 만들기에 적합한 서비스였습니다.",
   },
+
   {
     title: "EC2",
     img: "/images/stacks/ec2.png",
@@ -117,12 +124,169 @@ const stacks = [
     article:
       "Framer-motion은 애니메이션, 터치 기반의 제스쳐와 스크롤 등 인터페이스의 흐름을 위해 재사용이 가능한 컴포넌트를 제공합니다. 코드로 적으면 복잡해지는 애니메이션을 간편하게 멋진 애니메이션을 구현할 수 있다는 점에 시간 절약과 커스텀도 비교적 쉽게 접근해 다양한 애니메이션을 구현할 수 있다는 점이 좋았습니다.",
   },
+];
+
+const contents = [
   {
-    title: "MySQL",
-    img: "/images/stacks/framer.png",
-    article:
-      "회원가입과 로그인 기능을 구현하기 위해 활용했습니다. 회원 정보를 저장하는데 컬렉션에 담는 NoSQL 방식보다 덜 유연하지만 정해진 테이블에 저장하면서 명확하게 정의된 구조가 변동사항이 자주 없는 회원 정보를 담는 데이터베이스에 적합하다고 생각했고, 무엇보다 중복 없이 한 번만 저장해서 중요한 데이터에 대해 확실한 저장을 할 수 있겠다는 장점을 경험했습니다.",
+    id: 1,
+    title: "HEY APP",
+    content: "dsakdkkdakdsakdkdsas",
+    image: "/images/ex2.png",
+  },
+  {
+    id: 2,
+    title: "OHCO!",
+    content: "asdasdjaskldasdkal",
+    image: "/images/ex2.png",
+  },
+  {
+    id: 3,
+    title: "코인앵무새",
+    content: "asdasdjaskldasdkal",
+    image: "/images/ex2.png",
   },
 ];
 
-export { stacks };
+const activity = [
+  {
+    title: "헤이앱 페이지, 관리자 페이지 개발",
+    during: "2021.09.03 ~ 2021.11.02",
+    stacks: "JavaScript, React, Firebase, Redux, Figma",
+    des:
+      "UI디자이너와 협업을 통해 국내 앱에 대한 UXUI를 분석해 디자이너에게 도움이 되기 위해 제작한 서비스입니다. 피그마를 통해 디자인과 개발의 균형을 조율했고, 업로드 할 수 있는 관리자 페이지를 따로 제작하였습니다. 로그인 기능, 검색 기능, 업로드가 가능하며 이 작업을 통해 Redux를 통한 상태관리와 React Hook에 대해 더 이해할 수 있었습니다.",
+    links: [
+      {
+        head: "GitHub",
+        a: "https://github.com/lee-insu/salary",
+      },
+      {
+        head: "heyapp 페이지",
+        a: "https://vibrant-fermi-3eff9e.netlify.app/",
+      },
+      {
+        head: "heyapp 관리자 페이지",
+        a: "",
+      },
+      {
+        head: "헤이앱 개발 일기",
+        a:
+          "https://velog.io/@lamda/%ED%97%A4%EC%9D%B4%EC%95%B1-%EA%B0%9C%EB%B0%9C-%EC%9D%BC%EA%B8%B0",
+      },
+    ],
+  },
+  {
+    title: "코인앵무새 크립토 시장 서비스 개발, 운영",
+    during: "2021.07.20 ~ ",
+    stacks: "JavaScript, React, Firebase, Redux",
+    des:
+      "크립토 시장에서 수많은 코인을 랜덤으로 돌려 추천해주면 어떨까? 로 시작한 서비스입니다. 간단한 서비스이지만 미리 설치해둔 GA 덕분에 10만명이 방문한 것을 보고 CRUD가 가능한 커뮤니티 게시판과 회원가입 기능, 추가로 게임을 더 넣어 업데이트한 작업입니다.",
+    links: [
+      {
+        head: "GitHub",
+        a: "https://github.com/lee-insu/coin_parrot",
+      },
+      {
+        head: "코인앵무새 페이지",
+        a: "https://goofy-jepsen-710f83.netlify.app",
+      },
+    ],
+  },
+  {
+    title: "OHCO! 코디 추천 서비스 개발",
+    during: "2021.05.16 ~ 2021.06.13",
+    stacks: "JavaScript, React, Firebase",
+    des:
+      "오늘의 날씨에 따라 어울리는 코디를 추천해주는 서비스입니다. 날씨 API로 유저의 현재 날씨를 받아와 오늘 날씨와 어울리는 옷을 추천해주는 서비스입니다. 차후 개인화에 맞춰 코디를 추천해주는 서비스를 기획중입니다.",
+    links: [
+      { head: "GitHub", a: "https://github.com/lee-insu/clothes-list-react" },
+      { head: "OHCO! 페이지", a: "https://ohco.kr/" },
+    ],
+  },
+  {
+    title: "오늘의 기분 서비스 개발",
+    during: "2021.02.18 ~ 2021.03.11",
+    stacks: "JavaScript, Flask, MySQL, EC2",
+    des:
+      "구글의 Teachable Machine API를 활용해 웃음,화남,분노,슬픔의 표정을 수백 장의 사진으로 데이터를 대입했습니다. 유저가 자신의 사진을 업로드하면 입력된 데이터에 의해 표정에 관한 결과를 보여주는 서비스입니다.",
+    links: [
+      { head: "GitHub", a: "https://github.com/lee-insu/today-feeling" },
+      ,
+    ],
+  },
+  {
+    title: "킥보드 대여 통합 서비스 씽 디자인 작업 ",
+    during: "2021.03.16 ~ 2021.06.13",
+    stacks: "Illurstation, photoshop, XD",
+    des:
+      "씽씽, 킥고잉, 스윙, 고고씽 등 수많은 공유 킥보드 업체가 있습니다. 킥보드 업체가 많은 만큼 다른 회사의 킥보드를 타야 한다면 또다시 회원가입을 해야 하는 불편함이 있습니다. 이 점을 해결하기 위해 기획한 휙은 한 번의 가입으로 모든 킥보드를 이용할 수 있으며 킥보드 회사끼리 가격을 비교할 수 있어 이용자가 더 저렴하게 이용할 수 있는 서비스를 디자인 작업했습니다.",
+    links: [
+      {
+        head: "휙 디자인과 프로토타입 보기 ",
+        a:
+          "https://xd.adobe.com/view/588cc4fd-5020-45e9-9ef5-1845f287960c-0ddf/?fullscreen",
+      },
+    ],
+  },
+  {
+    title: "리디웹툰 기획서 작성 ",
+    during: "2020.05",
+    des:
+      "전자책 서비스로 시장에서 선두로 앞서고 있는 리디북스사에 경쟁자로 올라오는 밀리의 서재를 견제하기 위해 새로운 수요로 책과 오락의 경계에 있는 웹툰에 대한 포트폴리오를 만들어야 한다는 제 분석과 웹툰 시장을 선점해야 하는지 적은 글입니다.",
+    links: [
+      { head: "리디웹툰 기획", a: "https://brunch.co.kr/@carpediem7760/3" },
+    ],
+  },
+
+  {
+    title: "카카오톡 챗봇 헤이서 기획, 운영 ",
+    during: "2020.01 ~ 2020.08",
+    stacks: "Python, BeautifulSoup, Flask ",
+    des:
+      "코로나로 비대면 수업만 하는 신입생들을 위해 만든 학교 알리미 챗봇입니다. 코로나가 국내에 퍼져 처음으로 셧다운이 되고 대학교도 비대면으로 전환되어 처음 대학교에 와 학교생활에 대한 정보 불균형을 해결하고자 만든 챗봇입니다. python으로 학교 커뮤니티를 웹크롤링 해 학생들이 무엇을 원하는지 분류하고 챗봇 내에 서비스를 운영했습니다. ",
+    links: [
+      {
+        head: "헤이서 챗봇 기획",
+        a: "https://brunch.co.kr/magazine/heyseo",
+      },
+    ],
+  },
+
+  {
+    title: "카카오콕 기획서 작성 ",
+    during: "2020.06",
+    stacks: "Python, Seleium",
+    des:
+      "카카오콕은 카카오톡 선물하기에서 상품을 유저마다 개인화된 DB에 담아 구매할 것 같은 상품을 맞춤 추천하는 서비스입니다. 이 기능이 필요하다는 설득력의 자료를 트위터와 선물하기 관련 카페 커뮤니티에서 크롤링해 도출한 기획입니다.",
+    links: [
+      {
+        head: "카카오콕 기획",
+        a:
+          "https://drive.google.com/file/d/11hT8jBx8jDUp0QiE0TlTBnosfJ3Br4y1/view",
+      },
+    ],
+  },
+  {
+    title: "이랜드리테일 PB브랜드 SNS 홍보,관리",
+    during: "2018.04 ~ 2018.08",
+    des:
+      "이랜드리테일의 PB브랜드 오프라이스의 인스타그램, 페이스북 채널을 통해 이벤트를 열고 제품 구매로 연결하는 마케팅 활동을 했습니다. 그 외에도 네이버 지식인, 블로그, 파워링크를 통해 조회 수 100,000, 댓글 참여 1,124, 스마트 스토어 전환율은 6,554라는 결과를 얻어 온라인 마케팅 공모전 우수상을 받은 활동입니다.",
+    links: [
+      {
+        head: "오프라이스 온라인 마케팅 보고 PPT",
+        a:
+          "https://drive.google.com/file/d/1lSCMGpQtGXZ_DiOokZPbYaoYN2DlYjJH/view",
+      },
+    ],
+  },
+
+  {
+    title: "재테크 블로그 운영 ",
+    during: "2020.07 ~",
+    des:
+      "재테크에도 관심이 많지만, 크롤링을 통해 독자들이 좋아할 만한 소재를 뽑아내고 그 키워드에 글을 쓰면 조화수가 높게 나올까? 라는 것을 증명하기 위해 시작했습니다. 웹크롤링을 통해 재테크 글을 읽는 독자들이 어떤 궁금증을 가졌는지 키워드를 뽑아내고 그 키워드로 블로그를 활동했습니다. 결과로는 카카오 뷰페이지에 3번이나 노출되고 4개의 게시글이 10만뷰를 찍는 결과물을 얻었습니다.",
+    links: [
+      { head: "재테크 블로그", a: "https://brunch.co.kr/@carpediem7760" },
+    ],
+  },
+];
+export { stacks, contents, activity };
