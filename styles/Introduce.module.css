@@ -38,7 +38,9 @@
 .circle {
   border: 0px solid;
   padding: 15px 10px;
-  background-color: red;
+  background: #673ab7;
+  background: -webkit-linear-gradient(to right, #512da8, #673ab7);
+  background: linear-gradient(to right, #512da8, #673ab7);
   border-radius: 90px;
 }
 

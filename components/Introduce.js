@@ -9,7 +9,7 @@ const Introduce = () => {
       <Row gutter={{ xs: 8, sm: 8, md: 8, xl: 8 }} className={style.row}>
         <Col xl={3} md={3} lg={6} xl={6} xxl={8} className={style.title_img}>
           <Avatar
-            src="https://joeschmoe.io/api/v1/random"
+            src="/images/me.png"
             style={{
               backgroundColor: "#fff",
             }}
@@ -51,20 +51,24 @@ const Introduce = () => {
             <br /> 그만큼 성장하기 위해 끝없는 노력과
             <br /> 새로운 것에 대한 배움으로 <br />
             익힌 것은 더 깊게, <br />
-            새로운 것은 폭 넓게,
+            mee 새로운 것은 폭 넓게,
             <br /> 개발의 시야를 넓히고 더 성장하는
             <br /> 프로트엔드 개발자 이인수입니다.
           </p>
         </Col>
       </Row>
       <Row xl={24} className={style.link} type="flex">
-        <Col className={classnames(style.circle, style.color1)}>깃허브</Col>
+        <Col className={classnames(style.circle, style.color1)}>
+          <a href="https://github.com/lee-insu">깃허브</a>
+        </Col>
 
         <Col className={classnames(style.circle, style.color1)} offset={2}>
-          블로그
+          <a href="https://velog.io/@lamda">블로그</a>
         </Col>
         <Col className={classnames(style.circle, style.color1)} offset={2}>
-          이력서
+          <a href="https://drive.google.com/file/d/1jEnqz6wHW4nn7CCNLZmt-NCQiUQoabUX/view">
+            이력서
+          </a>
         </Col>
       </Row>
     </div>
