@@ -151,7 +151,8 @@
 @media screen and (max-width: 768px) {
   .container {
     padding: 30px 0px 5% 15%;
-    height: 90--vh;
+    height: 90vh;
+    height: calc(var(--vh, 1vh) * 100);
   }
 }
 
@@ -160,7 +161,8 @@
     position: relative;
     padding: 20px 0;
     left: 7%;
-    height: 90--vh;
+    height: 90vh;
+    height: calc(var(--vh, 1vh) * 100);
   }
   .script > :nth-child(1) {
     font-size: 15px;

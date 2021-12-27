@@ -136,7 +136,11 @@ const Stacks = () => {
           </Col>
           <Col className={style.stack} xs={24} sm={24} md={24} lg={24} xl={18}>
             <List
-              grid={{ gutter: [20, 20], column: size.width <= 658 ? 2 : 4 }}
+              grid={{
+                gutter: [20, 20],
+                // column: size.width <= 658 ? 2 : 4,
+                column: size < 375 ? (size.width <= 658 ? 2 : 4) : 2,
+              }}
               dataSource={data}
               renderItem={(item) => (
                 <List.Item>
