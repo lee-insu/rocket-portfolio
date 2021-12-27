@@ -49,11 +49,11 @@ const Nav = () => {
                   router.pathname == "/" ? style.active : "null"
                 )}
               >
-                Stacks
+                Stack
               </div>
             </a>
           </Link>
-          <div className={style.tooltip}>Stacks</div>
+          <div className={style.tooltip}>Stack</div>
         </Col>
         <Col xs={8} sm={8} md={8} lg={24} xl={24} className={style.activity}>
           <Link href="/activity">

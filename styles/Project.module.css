@@ -6,7 +6,7 @@
   background: none;
 }
 .img {
-  width: 120%;
+  width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,11 +18,53 @@
   color: #fff;
 }
 
+.modal_content {
+  white-space: pre-wrap;
+}
+
+.modal_content > :nth-child(1) {
+  margin: 10px 0;
+  font-family: 400;
+  font-size: 15px;
+  color: #fff;
+}
+.modal_content > :nth-child(2) {
+  font-family: 400;
+  font-size: 15px;
+  color: rgb(247, 247, 247);
+  padding: 20px 20px 0 0;
+}
+.modal_content > :nth-child(3) {
+  font-family: 400;
+  font-size: 15px;
+  color: rgb(204, 204, 204);
+  padding: 20px 20px 0 0;
+}
+
+.modal_content > :nth-child(4) {
+  font-family: 400;
+  font-size: 17px;
+  color: rgb(143, 143, 143);
+  margin-bottom: 5px;
+}
+.modal_content > :nth-child(5) {
+  padding: 0;
+}
+.modal_content > :nth-child(5) > li {
+  list-style: none;
+  font-family: 400;
+  font-size: 14px;
+  color: rgb(143, 143, 143);
+}
+
 .script {
   position: absolute;
   z-index: 9;
   bottom: 5%;
   left: 5%;
+  background-color: #fff;
+  padding: 8px 15px 8px 10px;
+  border-radius: 10px;
 }
 
 .script > :nth-child(1) {

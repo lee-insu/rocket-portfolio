@@ -23,6 +23,7 @@
   font-weight: 300;
   font-size: 15px;
   line-height: 150%;
+  white-space: pre-wrap;
 }
 .blog {
   font-weight: 500;

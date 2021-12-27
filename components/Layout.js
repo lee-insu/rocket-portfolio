@@ -7,6 +7,7 @@ import "antd/dist/antd.css";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import classnames from "classnames";
+import Head from "next/head";
 
 const Layout = ({ children }) => {
   return (

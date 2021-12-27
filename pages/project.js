@@ -57,7 +57,22 @@ export default function Home() {
         }}
         closable={false}
       >
-        <p>{article.content}</p>
+        <div className={style.modal_content}>
+          <p>사용한 기술: {article.stack}</p>
+
+          <p>{article.content}</p>
+          <p>{article.sub}</p>
+          <div>관련 링크</div>
+          <ul>
+            {article.links
+              ? article.links.map((link, i) => (
+                  <li key={i}>
+                    <a href={link.a}>{link.head}</a>
+                  </li>
+                ))
+              : null}
+          </ul>
+        </div>
       </Modal>
       <Row gutter={[0, 12]}>
         <Col xs={0} sm={0} md={0} lg={24} xl={24}>
@@ -86,13 +101,13 @@ export default function Home() {
                   <div className={style.script}>
                     <div>헤이앱 - 디자인 UIUX 분석 사이트</div>
                     <div>2021.09.03 ~ 2021.11.02</div>
-                    <div>JavaScript, React, Firebase, Redux, Figma</div>
+                    <div>React.js, Firebase, Redux, Figma</div>
                   </div>
                   <img
                     name="1"
                     onClick={(e) => showModal(e)}
                     className={style.img}
-                    src="/images/ex2.png"
+                    src="/images/1.png"
                   />
                 </div>
               </SwiperSlide>
@@ -101,13 +116,14 @@ export default function Home() {
                   <div className={style.script}>
                     <div>OHCO!- 날씨에 따라 코디를 추천해주는 서비스</div>
                     <div>2021.05.16 ~ 2021.06.13</div>
-                    <div>JavaScript, React, Firebase</div>
+                    <div>React.js, Firebase</div>
                   </div>
+
                   <img
                     name="2"
                     onClick={(e) => showModal(e)}
                     className={style.img}
-                    src="/images/ex1.png"
+                    src="/images/2.png"
                   />
                 </div>
               </SwiperSlide>
@@ -116,13 +132,13 @@ export default function Home() {
                   <div className={style.script}>
                     <div>코인앵무새 - 크립토 랜덤 게임과 커뮤니티</div>
                     <div>2021.07.20 ~ 2021.09.01</div>
-                    <div>JavaScript, React, Firebase, Redux</div>
+                    <div>React.js, Firebase, Redux</div>
                   </div>
                   <img
                     name="3"
                     onClick={(e) => showModal(e)}
                     className={style.img}
-                    src="/images/ex1.png"
+                    src="/images/3.png"
                   />
                 </div>
               </SwiperSlide>
@@ -137,7 +153,7 @@ export default function Home() {
                     name="4"
                     onClick={(e) => showModal(e)}
                     className={style.img}
-                    src="/images/ex1.png"
+                    src="/images/4.png"
                   />
                 </div>
               </SwiperSlide>

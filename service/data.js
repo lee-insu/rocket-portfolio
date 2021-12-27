@@ -2,7 +2,7 @@ const stacks = [
   {
     title: "JavaScript",
     img: "/images/stacks/js.png",
-    article: `웹을 동적으로 움직이길 원한다면 꼭 배워야 하는 스크립트 언어이기에 배우게 되었습니다. JS를 통해 로그인과 회원가입, 서버와의 통신, 브라우저 제어 등 모든 동적인 기능을 활용하는 데 사용했습니다.제가 작업하면서 느낀 JS의 장점은 계발 속도가 빠르다는 점, 그리고 컴파일 과정이 없어서 즉시 실행하고 디버깅도 간편합니다.JS를 활용하면서 이해하는 데 여러 시행착오가 있었습니다. 한 가지 에로는, JS는  python과 달리 비동기 프로그래밍을 지원해 Python을 먼저 배운 저는 비동기 처리에 대해 헷갈렸지만, 충분한 공부를 통해 비동기와 동기 처리에 대해 이해하게 되었습니다.`,
+    article: `웹을 동적으로 움직이길 원한다면 꼭 배워야 하는 스크립트 언어이기에 배우게 되었습니다. JS를 통해 로그인과 회원가입, 서버와의 통신, 브라우저 제어 등 모든 동적인 기능을 활용하는 데 사용했습니다.\n\n제가 작업하면서 느낀 JS의 장점은 계발 속도가 빠르다는 점, 그리고 컴파일 과정이 없어서 즉시 실행하고 디버깅도 간편합니다.JS를 활용하면서 이해하는 데 여러 시행착오가 있었습니다. 한 가지 예는, JS는  python과 달리 비동기 프로그래밍을 지원해 Python을 먼저 배운 저는 비동기 처리에 대해 헷갈렸지만, 충분한 공부를 통해 비동기와 동기 처리에 대해 이해하게 되었습니다.`,
     links: [
       {
         head: "JS의 동기와 비동기 그건 무엇일까?",
@@ -39,7 +39,7 @@ const stacks = [
     title: "React",
     img: "/images/stacks/react.png",
     article:
-      "React를 배우게 된 것은 수동 자동차에서 오토 자동차로 바꾼 것 같은 간편함 때문에 배웠습니다.  프로젝트 규모가 커질수록 순수 JS로  DOM에 접근해 작업하고 관리하는 것은 번거로운 일이었습니다. 이런 번거로운 작업을 도와주는 것이 라이브러리였고 그 중 React를 배우게 되었습니다. 다른 라이브러리도 마찬가지이지만, 컴포넌트의 독립성과 재사용이 가능해 다양한 작업물이 가능하고, VDOM이 있어 필요한 부분만 업데이트가 돼 자원을 아낄 수 있다는 점입니다.  React만의 장점은 native로의 확장성과 vue에 비해 거대한 커뮤니티로 참고할 자료가 많다는 점입니다.",
+      "React를 배우게 된 것은 수동 자동차에서 오토 자동차로 바꾼 것 같은 간편함 때문에 배웠습니다.  프로젝트 규모가 커질수록 순수 JS로  DOM에 접근해 작업하고 관리하는 것은 번거로운 일이었습니다. \n\n이런 번거로운 작업을 도와주는 것이 라이브러리였고 그 중 React를 배우게 되었습니다. 다른 라이브러리도 마찬가지이지만, 컴포넌트의 독립성과 재사용이 가능해 다양한 작업물이 가능하고, VDOM이 있어 필요한 부분만 업데이트가 돼 자원을 아낄 수 있다는 점입니다.  React만의 장점은 native로의 확장성과 vue에 비해 거대한 커뮤니티로 참고할 자료가 많다는 점입니다.",
     links: [
       {
         head: "Angular, Vue, React 중 React 를 쓰는 이유",
@@ -57,7 +57,7 @@ const stacks = [
     title: "NextJS",
     img: "/images/stacks/nextjs.png",
     article:
-      "연습과 다음의 이유로 이 포트폴리오 사이트를 Next.js로 작업했습니다. 이 포트폴리오 사이트는 내용이 변하지 않는 고정적인 페이지입니다. Next.js의 장점인 React의 SPA의 강점과 정적페이지와 서버사이드 렌더링을 통해 유연하게 구현할 수 있는 React의 프레임워크라는 점이 어떤 경험을 줄 지 궁금했습니다. 두 번째로는 SEO가 탁월해 누군가 제 포트폴리오를 보고 연락해줬으면 해 선택한 면도 있습니다. 제가 느꼈던 Next.js는 페이지 라우팅을 파일 시스템으로 기반해, 따로 라우팅을 설정하지 않아도 되는 직관성을 가지고 있다는 걸 느꼈습니다. 또한, pages 폴더 안에 있는 코드를 토대로 HTML 파일을 미리 생성하고 렌더링 해줘 정적 파일을 보여주는 서버사이드렌더링 방식 때문에 CSR보다 페이지를 구성하는 속도는 늦어지지만, 전체적으로 유저가 콘텐츠를 볼 수 있다는 장점을 가지고 있어 배우게 되었습니다.",
+      "연습과 다음의 이유로 이 포트폴리오 사이트를 Next.js로 작업했습니다. 이 포트폴리오 사이트는 내용이 변하지 않는 고정적인 페이지입니다. Next.js의 장점인 React의 SPA의 강점과 정적페이지와 서버사이드 렌더링을 통해 유연하게 구현할 수 있는 React의 프레임워크라는 점이 어떤 경험을 줄 지 궁금했습니다. 두 번째로는 SEO가 탁월해 누군가 제 포트폴리오를 보고 연락해줬으면 해 선택한 면도 있습니다.\n\n제가 느꼈던 Next.js는 페이지 라우팅을 파일 시스템으로 기반해, 따로 라우팅을 설정하지 않아도 되는 직관성을 가지고 있다는 걸 느꼈습니다. 또한, pages 폴더 안에 있는 코드를 토대로 HTML 파일을 미리 생성하고 렌더링 해줘 정적 파일을 보여주는 서버사이드렌더링 방식 때문에 CSR보다 페이지를 구성하는 속도는 늦어지지만, 전체적으로 유저가 콘텐츠를 볼 수 있다는 장점을 가지고 있어 배우게 되었습니다.",
     links: [
       {
         head: "NEXT.JS를 쓰게 된 이유!",
@@ -77,7 +77,7 @@ const stacks = [
     title: "Python",
     img: "/images/stacks/python.png",
     article:
-      "처음으로 개발을 접한 언어이고 프로젝트 기획 당시 수요 조사를 크롤링으로 데이터를 얻기 위해 배웠습니다. JS도 배우기 쉽지만, Python은 코드가 더 단순하고, 길이가 짧아 간결해 한눈에 코드들이 어떤 순서로 흘러가는지 보였습니다. 또한, 규칙이 명확한 Python을 먼저 배우고 JS를 접하게 되니 동기적, 비동기적 흐름에 대해 더 명확히 느낄 수 있었습니다. 셀레니움과 BeautifulSoup를 통해 웹에서 댓글과 같은 사람들의 유저 분석을 하는 과정 중에 다른 서비스의  HTML 태그들이 어떻게 구성됐는지 알게 되었던 경험이었습니다.",
+      "처음으로 개발을 접한 언어이고 프로젝트 기획 당시 수요 조사를 크롤링으로 데이터를 얻기 위해 배웠습니다. JS도 배우기 쉽지만, Python은 코드가 더 단순하고, 길이가 짧아 간결해 한눈에 코드들이 어떤 순서로 흘러가는지 보였습니다.\n\n또한, 규칙이 명확한 Python을 먼저 배우고 JS를 접하게 되니 동기적, 비동기적 흐름에 대해 더 명확히 느낄 수 있었습니다. 셀레니움과 BeautifulSoup를 통해 웹에서 댓글과 같은 사람들의 유저 분석을 하는 과정 중에 다른 서비스의  HTML 태그들이 어떻게 구성됐는지 알게 되었던 경험이었습니다.",
   },
   {
     title: "Flask",
@@ -95,7 +95,7 @@ const stacks = [
     title: "Firebase",
     img: "/images/stacks/firebase.png",
     article:
-      "firebase는 제가 프로젝트를 진행하면서 가장 잘 활용하고 있는 백엔드 서비스입니다. flask를 통해 빠르게 백엔드에 배운 것은 좋았지만, 인증, 데이터베이스, 스토리지와 같이 더 다양한 기능을 활용하기엔 한계가 있었습니다. 또한, JS에 좀 더 집중하기 위해 더 쉽게 활용할 수 있는 서비스가 필요했는데 그 부족한 점을 채워준 것이 firebase였습니다.firebase를 활용하면서 flask와 mysql를 통해 회원가입 작업을 했던 것도 더 간편하게 설정할 수 있었고, 아이디 찾기와 비밀번호 변경과 같은 복잡한 것도 손쉽게 가능한 것이 장점이었습니다. 그리고 NoSQL기반이기 때문에 MySQL와 같은 관계형 데이터베이스보다 빠르고 간편했습니다. 종종 응답속도가 늦지만, 제가 원하던 프로토타입을 빠르게 만들기에 적합한 서비스였습니다.",
+      "firebase는 제가 프로젝트를 진행하면서 가장 잘 활용하고 있는 백엔드 서비스입니다. flask를 통해 빠르게 백엔드에 배운 것은 좋았지만, 인증, 데이터베이스, 스토리지와 같이 더 다양한 기능을 활용하기엔 한계가 있었습니다. 또한, JS에 좀 더 집중하기 위해 더 쉽게 활용할 수 있는 서비스가 필요했는데 그 부족한 점을 채워준 것이 firebase였습니다.\n\nfirebase를 활용하면서 flask와 mysql를 통해 회원가입 작업을 했던 것도 더 간편하게 설정할 수 있었고, 아이디 찾기와 비밀번호 변경과 같은 복잡한 것도 손쉽게 가능한 것이 장점이었습니다. 그리고 NoSQL기반이기 때문에 MySQL와 같은 관계형 데이터베이스보다 빠르고 간편했습니다. 종종 응답속도가 늦지만, 제가 원하던 프로토타입을 빠르게 만들기에 적합한 서비스였습니다.",
   },
 
   {
@@ -129,21 +129,79 @@ const stacks = [
 const contents = [
   {
     id: 1,
-    title: "HEY APP",
-    content: "dsakdkkdakdsakdkdsas",
-    image: "/images/ex2.png",
+    title: "Hey App",
+    stack: "React.js , Redux, Firebase, Figma",
+    content:
+      "국내에서 UXUI 자료가 부족한 디자이너를 위해 앱 플로우와 분석을 소개하는 서비스입니다. Figma를 통해 디자이너와 협업했고 유저 플로우와 디자인 구성하기 - 기술 스택 정하기 - 필요한 기능 정리하기 -데이터 베이스 구성하기 - 관리자 페이지 로직 작업하기 -뷰페이지 작업하기 순으로 우선순위에 따라 작업의 흐름이 끊기지 않도록 작업했습니다.",
+    sub:
+      "- Firebase Auth를 사용해 회원가입, 로그인 기능 구현\n- DB와 통신하여 글과 사진이 담긴 게시글을 업로드 하고 삭제, 게시물의 활성화 상태를 결정할 수 있는 관리자 페이지 제작\n- CKEditor를 통한 게시글 작성\n- Redux를 통해 검색 결과와 유저 정보의 상태 관리\n- Figma를 통해 디자이너와 와이어프레임 , UX / UI 문서화- 데이터베이스 플로우차트 ",
+    links: [
+      {
+        head: "heyapp 페이지",
+        a: "https://vibrant-fermi-3eff9e.netlify.app/",
+      },
+      {
+        head: "GitHub (heyapp)",
+        a: "https://github.com/lee-insu/salary",
+      },
+      {
+        head: "GitHub (heyapp 관리자)",
+        a: "https://github.com/lee-insu/salary",
+      },
+      {
+        head: "헤이앱 개발 일기",
+        a:
+          "https://velog.io/@lamda/%ED%97%A4%EC%9D%B4%EC%95%B1-%EA%B0%9C%EB%B0%9C-%EC%9D%BC%EA%B8%B0",
+      },
+    ],
   },
   {
     id: 2,
     title: "OHCO!",
-    content: "asdasdjaskldasdkal",
-    image: "/images/ex2.png",
+    stack: "React.js, Firebase",
+    content:
+      "오늘의 날씨에 따라 어울리는 코디를 추천해주는 서비스입니다. Geolocation, OpenWeather API를 통해 유저의 날씨를 받아와 오늘 날씨와 어울리는 코디를 추천합니다. 차후 개인화를 통해 자신의 스타일 코디를 추천해주는 서비스를 업데이트 기획 중입니다.",
+    sub:
+      "- 사진을 업로드 할 수 있는 지원서 기능\n- Geolocation API로 현재 좌표를 받아오고 OpenWeather API를 통해 해당 지역 날씨 데이터 활용\n- 온도에 따라 DB 안의 해당 문서에 접근해 코디 리스트를 유저에게 보여주는 기능 ",
+
+    links: [
+      { head: "OHCO! 페이지", a: "https://ohco.kr/" },
+      { head: "GitHub", a: "https://github.com/lee-insu/clothes-list-react" },
+    ],
   },
   {
     id: 3,
     title: "코인앵무새",
-    content: "asdasdjaskldasdkal",
-    image: "/images/ex2.png",
+    stack: "React.js , Redux, Firebase",
+    content:
+      "크립토 시장에서 수많은 코인을 랜덤으로 추천해주는 서비스로 시작했습니다. GA를 통해 10만 명이 방문한 만큼 인기를 얻어 CRUD가 가능한 커뮤니티 게시판과, 회원가입 기능, 게임 추가와 실시간으로 업비트 API를 통해 시세가 업데이트되는 가격전광판을 업데이트했습니다.",
+    sub:
+      "- DB와 실시간으로 통신해 CRUD를 구현한 게시판을 만들어 커뮤니티 형성\n- 댓글 기능 추가\n- Firebase Auth를 사용해 회원가입, 로그인 기능 구현\n- Redux를 통해 검색 정보의 상태 관리\n- 업비트 API를 통해 json으로 실시간 가격 업데이트 전광판 기능 구현",
+
+    links: [
+      {
+        head: "코인앵무새 페이지",
+        a: "https://goofy-jepsen-710f83.netlify.app",
+      },
+      {
+        head: "GitHub",
+        a: "https://github.com/lee-insu/coin_parrot",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "오늘의 기분",
+    stack: "JavaScript, Flask, MySQL",
+
+    content:
+      "수백 장의 표정 사진을 표본으로 삼아 유저의 사진을 업로드하면 표본의 결과에 따라 오늘의 기분을 알려주는 서비스입니다.",
+    sub:
+      "- Teachable Machine API를 통해 표본을 대입하고 표본에 따라 분석할 수 있는 기능\n- 달력에 오늘의 기분 상태를 입력하면 LocalStorage에 임시 저장되는 기능\n- Flask를 통해 백엔드 작업\n- AWS EC2 서비스를 통해 서비스 구축\n- MySQL과 Flask를 통해 회원가입과 로그인을 할 수 있고 유저 정보를 서버에서 가져오는 기능",
+    links: [
+      { head: "GitHub", a: "https://github.com/lee-insu/today-feeling" },
+      ,
+    ],
   },
 ];
 
@@ -151,7 +209,7 @@ const activity = [
   {
     title: "헤이앱 페이지, 관리자 페이지 개발",
     during: "2021.09.03 ~ 2021.11.02",
-    stacks: "JavaScript, React, Firebase, Redux, Figma",
+    stacks: "React.js, Firebase, Redux, Figma",
     des:
       "UI디자이너와 협업을 통해 국내 앱에 대한 UXUI를 분석해 디자이너에게 도움이 되기 위해 제작한 서비스입니다. 피그마를 통해 디자인과 개발의 균형을 조율했고, 업로드 할 수 있는 관리자 페이지를 따로 제작하였습니다. 로그인 기능, 검색 기능, 업로드가 가능하며 이 작업을 통해 Redux를 통한 상태관리와 React Hook에 대해 더 이해할 수 있었습니다.",
     links: [
@@ -163,10 +221,7 @@ const activity = [
         head: "heyapp 페이지",
         a: "https://vibrant-fermi-3eff9e.netlify.app/",
       },
-      {
-        head: "heyapp 관리자 페이지",
-        a: "",
-      },
+
       {
         head: "헤이앱 개발 일기",
         a:
@@ -177,7 +232,7 @@ const activity = [
   {
     title: "코인앵무새 크립토 시장 서비스 개발, 운영",
     during: "2021.07.20 ~ ",
-    stacks: "JavaScript, React, Firebase, Redux",
+    stacks: "React.js, Firebase, Redux",
     des:
       "크립토 시장에서 수많은 코인을 랜덤으로 돌려 추천해주면 어떨까? 로 시작한 서비스입니다. 간단한 서비스이지만 미리 설치해둔 GA 덕분에 10만명이 방문한 것을 보고 CRUD가 가능한 커뮤니티 게시판과 회원가입 기능, 추가로 게임을 더 넣어 업데이트한 작업입니다.",
     links: [
@@ -194,7 +249,7 @@ const activity = [
   {
     title: "OHCO! 코디 추천 서비스 개발",
     during: "2021.05.16 ~ 2021.06.13",
-    stacks: "JavaScript, React, Firebase",
+    stacks: "React.js, Firebase",
     des:
       "오늘의 날씨에 따라 어울리는 코디를 추천해주는 서비스입니다. 날씨 API로 유저의 현재 날씨를 받아와 오늘 날씨와 어울리는 옷을 추천해주는 서비스입니다. 차후 개인화에 맞춰 코디를 추천해주는 서비스를 기획중입니다.",
     links: [
@@ -207,7 +262,7 @@ const activity = [
     during: "2021.02.18 ~ 2021.03.11",
     stacks: "JavaScript, Flask, MySQL, EC2",
     des:
-      "구글의 Teachable Machine API를 활용해 웃음,화남,분노,슬픔의 표정을 수백 장의 사진으로 데이터를 대입했습니다. 유저가 자신의 사진을 업로드하면 입력된 데이터에 의해 표정에 관한 결과를 보여주는 서비스입니다.",
+      "구글의 Teachable Machine API를 활용해 웃음,화남,분노,슬픔의 표정을 수백 장의 사진으로 데이터를 대입했습니다. 유저가 자신의 사진을 업로드하면 입력된 데이터에 의해 표정 안에 섞여 있는 감정을 알려주는 서비스입니다.",
     links: [
       { head: "GitHub", a: "https://github.com/lee-insu/today-feeling" },
       ,

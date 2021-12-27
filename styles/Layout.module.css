@@ -85,6 +85,12 @@
   right: 18%;
 }
 
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+  .planet2 {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 769px) and (max-width: 992px) {
   /* md */
   .row {
@@ -95,6 +101,9 @@
   }
   .page {
     margin-top: 4rem;
+  }
+  .planet2 {
+    display: none;
   }
 }
 @media screen and (max-width: 768px) {
@@ -107,5 +116,10 @@
   }
   .page {
     margin-top: 2rem;
+  }
+  .planet2,
+  .background1,
+  .background1_copy {
+    display: none;
   }
 }
