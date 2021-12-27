@@ -138,8 +138,15 @@ const Stacks = () => {
             <List
               grid={{
                 gutter: [20, 20],
-                // column: size.width <= 658 ? 2 : 4,
-                column: size < 375 ? (size.width <= 658 ? 2 : 4) : 2,
+                // column: size.width < 659 ? 2 : 4,
+                column:
+                  size.width < 659
+                    ? size.width < 376
+                      ? 4
+                      : 2
+                    : size.width
+                    ? 4
+                    : 2,
               }}
               dataSource={data}
               renderItem={(item) => (
