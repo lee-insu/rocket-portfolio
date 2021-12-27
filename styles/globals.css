@@ -121,12 +121,14 @@ a {
     height: 400px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .swiper {
     width: 500px;
     height: 500px;
   }
 }
+
 @media screen and (max-width: 658px) {
   .swiper {
     width: 300px;

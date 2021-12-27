@@ -135,41 +135,39 @@ const Stacks = () => {
             </Divider>
           </Col>
           <Col className={style.stack} xs={24} sm={24} md={24} lg={24} xl={18}>
-            <List
-              grid={{
-                gutter: [20, 20],
-                // column: size.width < 659 ? 2 : 4,
-                column:
-                  size.width < 659
-                    ? size.width < 376
-                      ? 4
-                      : 2
-                    : size.width
-                    ? 4
-                    : 2,
-              }}
-              dataSource={data}
-              renderItem={(item) => (
-                <List.Item>
-                  <Card
-                    onClick={(e) => {
-                      showModal(e);
-                    }}
-                    className={style.stacks}
-                    style={{
-                      width: 130,
-                      height: 130,
-                      overflow: "hidden",
-                      border: "0px ",
-                    }}
-                    bodyStyle={{ display: "none" }}
-                    cover={
-                      <img name={item.title} alt={item.title} src={item.img} />
-                    }
-                  ></Card>
-                </List.Item>
-              )}
-            />
+            {size.width ? (
+              <List
+                grid={{
+                  gutter: [20, 20],
+                  column: size.width < 659 ? 2 : 4,
+                }}
+                dataSource={data}
+                renderItem={(item) => (
+                  <List.Item>
+                    <Card
+                      onClick={(e) => {
+                        showModal(e);
+                      }}
+                      className={style.stacks}
+                      style={{
+                        width: 130,
+                        height: 130,
+                        overflow: "hidden",
+                        border: "0px ",
+                      }}
+                      bodyStyle={{ display: "none" }}
+                      cover={
+                        <img
+                          name={item.title}
+                          alt={item.title}
+                          src={item.img}
+                        />
+                      }
+                    ></Card>
+                  </List.Item>
+                )}
+              />
+            ) : null}
           </Col>
         </Row>
       </motion.div>

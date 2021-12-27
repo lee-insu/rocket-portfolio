@@ -119,7 +119,8 @@
   }
   .planet2,
   .background1,
-  .background1_copy {
+  .background1_copy,
+  .rocket {
     display: none;
   }
 }
