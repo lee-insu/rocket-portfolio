@@ -10,7 +10,17 @@ import classnames from "classnames";
 
 const Layout = ({ children }) => {
   const setScreenSize = () => {
-    let vh = window.innerHeight * 0.01;
+    const isClient = typeof window === "object";
+
+    const getSize = () => {
+      return { height: isClient ? window.innerHeight : undefined };
+    };
+
+    if (!isClient) {
+      return false;
+    }
+
+    let vh = getSize() * 0.01;
     document.documentElement.style.setProperty("--vh", `${vh}px`);
   };
 
