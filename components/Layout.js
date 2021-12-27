@@ -7,9 +7,14 @@ import "antd/dist/antd.css";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import classnames from "classnames";
-import Head from "next/head";
 
 const Layout = ({ children }) => {
+  const setScreenSize = () => {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+  };
+
+  setScreenSize();
   return (
     <Row gutter={[0, 0]} type="flex" className={style.row}>
       <Col xs={24} sm={24} md={24} lg={8} xl={8} className={style.introduce}>

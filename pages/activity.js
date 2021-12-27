@@ -25,9 +25,9 @@ const Activity = () => {
               className={style.divi_intro}
               orientation="left"
               style={{
-                fontFamily: "protendard",
+                fontFamily: "pretendard",
                 fontSize: "25px",
-                fontWeight: 300,
+                fontWeight: 100,
                 color: "#fff",
               }}
             >

@@ -1,6 +1,6 @@
 .row {
   width: auto;
-  min-height: 100vh;
+  min-height: 100--vh;
   height: auto;
   position: relative;
   margin: 0 auto;

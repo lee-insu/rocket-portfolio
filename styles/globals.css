@@ -13,6 +13,11 @@ a {
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: pretendard;
+  font-weight: 100;
+  src: url("/fonts/Pretendard-Thin.woff2") format("woff2");
+}
 
 @font-face {
   font-family: pretendard;

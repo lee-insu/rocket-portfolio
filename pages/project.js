@@ -79,9 +79,9 @@ export default function Home() {
           <Divider
             orientation="left"
             style={{
-              fontFamily: "protendard",
+              fontFamily: "pretendard",
               fontSize: "25px",
-              fontWeight: 300,
+              fontWeight: 100,
               color: "#fff",
             }}
           >
