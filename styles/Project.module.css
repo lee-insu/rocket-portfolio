@@ -1,6 +1,7 @@
 .container {
   padding: 150px;
   font-family: pretendard;
+  height: 100vh;
 }
 .back {
   background: none;

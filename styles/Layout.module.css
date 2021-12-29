@@ -1,6 +1,6 @@
 .row {
   width: auto;
-  height: calc(var(--vh, 1vh) * 100);
+
   height: auto;
   position: relative;
   margin: 0 auto;
