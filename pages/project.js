@@ -114,6 +114,21 @@ export default function Home() {
               <SwiperSlide>
                 <div className={style.back}>
                   <div className={style.script}>
+                    <div>코인앵무새 - 크립토 랜덤 게임과 커뮤니티</div>
+                    <div>2021.07.20 ~ 2021.09.01</div>
+                    <div>React.js, Firebase, Redux</div>
+                  </div>
+                  <img
+                    name="3"
+                    onClick={(e) => showModal(e)}
+                    className={style.img}
+                    src="/images/3.png"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className={style.back}>
+                  <div className={style.script}>
                     <div>OHCO!- 날씨에 따라 코디를 추천해주는 서비스</div>
                     <div>2021.05.16 ~ 2021.06.13</div>
                     <div>React.js, Firebase</div>
@@ -124,21 +139,6 @@ export default function Home() {
                     onClick={(e) => showModal(e)}
                     className={style.img}
                     src="/images/2.png"
-                  />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className={style.back}>
-                  <div className={style.script}>
-                    <div>코인앵무새 - 크립토 랜덤 게임과 커뮤니티</div>
-                    <div>2021.07.20 ~ 2021.09.01</div>
-                    <div>React.js, Firebase, Redux</div>
-                  </div>
-                  <img
-                    name="3"
-                    onClick={(e) => showModal(e)}
-                    className={style.img}
-                    src="/images/3.png"
                   />
                 </div>
               </SwiperSlide>

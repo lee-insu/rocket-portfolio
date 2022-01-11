@@ -92,6 +92,19 @@ const stacks = [
       "회원가입과 로그인 기능을 구현하기 위해 활용했습니다. 회원 정보를 저장하는데 컬렉션에 담는 NoSQL 방식보다 덜 유연하지만 정해진 테이블에 저장하면서 명확하게 정의된 구조가 변동사항이 자주 없는 회원 정보를 담는 데이터베이스에 적합하다고 생각했고, 무엇보다 중복 없이 한 번만 저장해서 중요한 데이터에 대해 확실한 저장을 할 수 있겠다는 장점을 경험했습니다.",
   },
   {
+    title: "GraphQL",
+    img: "/images/stacks/graphql.png",
+    article:
+      "Firebase를 쓰면서 여러 collection에 doc를 불러오고 수정하는데 건드리는 collection이 많아질수록 코드도 복잡해졌습니다.\n\n복잡한 기능을 위해 복잡해지는 건 어쩔 수 없지만 간단한 수정인데도 불구하고 코드가 불필요하게 길어진 점, 필요한 데이터만 가져오고 싶은데 전체적으로 호출을 해야 한다는 점이 낭비라고 생각되어 다른 방법이 없을까 검색했습니다. 그렇게 알게 된 것이 graphql과 이를 활용할 수 있게 도와주는 apollo client였습니다. Over-fetching, under-fetching을 해결해주면서 잘 활용하면 상태관리 할 필요 없이 직접 통신할 수 있는 장점을 느꼈습니다. 현재 ohco 2.0에 활용하고 있습니다.",
+    links: [
+      {
+        head: "GraphQL과 Apollo를 왜 쓸까?",
+        link:
+          "https://velog.io/@lamda/GraphQL%EA%B3%BC-Apollo%EB%A5%BC-%EC%99%9C-%EC%93%B8%EA%B9%8C",
+      },
+    ],
+  },
+  {
     title: "Firebase",
     img: "/images/stacks/firebase.png",
     article:
@@ -166,6 +179,11 @@ const contents = [
 
     links: [
       { head: "OHCO! 페이지", a: "https://ohco.kr/" },
+      {
+        head: "OHCO! 개발 일기",
+        a:
+          "https://velog.io/@lamda/%EC%98%A4%EC%BD%94-1.0-%EA%B0%9C%EB%B0%9C-%EC%9D%BC%EA%B8%B0",
+      },
       { head: "GitHub", a: "https://github.com/lee-insu/clothes-list-react" },
     ],
   },
@@ -184,6 +202,11 @@ const contents = [
         a: "https://goofy-jepsen-710f83.netlify.app",
       },
       {
+        head: "코인앵무새 개발 일기",
+        a:
+          "https://velog.io/@lamda/%EC%BD%94%EC%9D%B8%EC%95%B5%EB%AC%B4%EC%83%88-%EA%B0%9C%EB%B0%9C-%EC%9D%BC%EA%B8%B0",
+      },
+      {
         head: "GitHub",
         a: "https://github.com/lee-insu/coin_parrot",
       },
@@ -200,7 +223,11 @@ const contents = [
       "- Teachable Machine API를 통해 표본을 대입하고 표본에 따라 분석할 수 있는 기능\n- 달력에 오늘의 기분 상태를 입력하면 LocalStorage에 임시 저장되는 기능\n- Flask를 통해 백엔드 작업\n- AWS EC2 서비스를 통해 서비스 구축\n- MySQL과 Flask를 통해 회원가입과 로그인을 할 수 있고 유저 정보를 서버에서 가져오는 기능",
     links: [
       { head: "GitHub", a: "https://github.com/lee-insu/today-feeling" },
-      ,
+      {
+        head: "오늘의 기분 개발 일기",
+        a:
+          "https://velog.io/@lamda/%EC%98%A4%EB%8A%98%EC%9D%98-%EA%B8%B0%EB%B6%84-%EC%A0%9C%EC%9E%91-%EC%9D%BC%EA%B8%B0",
+      },
     ],
   },
 ];
