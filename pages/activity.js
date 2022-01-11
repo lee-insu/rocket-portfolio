@@ -61,7 +61,7 @@ const Activity = () => {
                       </div>
                       {item.stacks ? (
                         <div className={style.stacks}>
-                          사용한 기술: {item.stacks}
+                          사용한 기술 / 툴: {item.stacks}
                         </div>
                       ) : null}
                       <br />

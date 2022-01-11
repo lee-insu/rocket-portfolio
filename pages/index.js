@@ -131,7 +131,7 @@ const Stacks = () => {
                 color: "#fff",
               }}
             >
-              STACK
+              STACK / TOOLS
             </Divider>
           </Col>
           <Col className={style.stack} xs={24} sm={24} md={24} lg={24} xl={18}>

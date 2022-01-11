@@ -58,7 +58,7 @@ export default function Home() {
         closable={false}
       >
         <div className={style.modal_content}>
-          <p>사용한 기술: {article.stack}</p>
+          <p>사용한 기술 / 툴: {article.stack}</p>
 
           <p>{article.content}</p>
           <p>{article.sub}</p>
