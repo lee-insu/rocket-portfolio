@@ -99,12 +99,30 @@ export default function Home() {
               <SwiperSlide>
                 <div className={style.back}>
                   <div className={style.script}>
+                    <div>OHCO 2.0 - 나를 표현하는 코디</div>
+                    <div>2022.01.04 ~ 2022.03.31</div>
+                    <div>
+                      Next.js, Firebase, Graphql, Apollo, Mongodb, Redux, Figma,
+                      Nginx
+                    </div>
+                  </div>
+                  <img
+                    name="1"
+                    onClick={(e) => showModal(e)}
+                    className={style.img}
+                    src="/images/6.png"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className={style.back}>
+                  <div className={style.script}>
                     <div>헤이앱 - 디자인 UIUX 분석 사이트</div>
                     <div>2021.09.03 ~ 2021.11.02</div>
                     <div>React.js, Firebase, Redux, Figma</div>
                   </div>
                   <img
-                    name="1"
+                    name="2"
                     onClick={(e) => showModal(e)}
                     className={style.img}
                     src="/images/1.png"
@@ -135,7 +153,7 @@ export default function Home() {
                   </div>
 
                   <img
-                    name="2"
+                    name="4"
                     onClick={(e) => showModal(e)}
                     className={style.img}
                     src="/images/2.png"
@@ -150,7 +168,7 @@ export default function Home() {
                     <div>JavaScript, Flask, MySQL, EC2</div>
                   </div>
                   <img
-                    name="4"
+                    name="5"
                     onClick={(e) => showModal(e)}
                     className={style.img}
                     src="/images/4.png"

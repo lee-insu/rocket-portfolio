@@ -142,6 +142,39 @@ const stacks = [
 const contents = [
   {
     id: 1,
+    title: "OHCO 2.0",
+    stack: "Next.js, Firebase, Graphql, Apollo, Mongodb, Redux, Figma, Nginx",
+    content:
+      "1.0에서 2.0으로 넘어오면서 OpenWeather API를 통해 온도에 따라 어울리는 코디를 추천해주는 서비스에서 온도, 스타일, 색 조합 등 종합적으로 코디를 추천, 저장할 수 있는 서비스로 확장했습니다. 마음에 드는 코디가 있다면 연관된 상품 구매까지 경로 이동이 가능한 서비스입니다.",
+    sub:
+      "- Firebase Auth를 사용해 회원가입, 로그인 기능 구현 \n- Graphql 과 Apollo-express로 서버 작업 후 데이터 연결\n- SEO를 고려해 SSR 구축\n- OpenWeather API, kakao local API를 통해 지역과 온도 데이터 받기\n- 인피니티 스크롤을 통해 자원 낭비 개선, 속도 개선\n- Redux를 통해 유저 정보와 필터 데이터 관리\n- GA를 통해 유저의 행동 데이터로 콘텐츠 개선\n- Firebase store를 활용해 원하는 상품, 코디 북마크 기능\n- 피그마를 통해 와이어프레임, UI 제작",
+    links: [
+      {
+        head: "OH CO! 페이지",
+        a: "https://ohco.kr/",
+      },
+      {
+        head: "GitHub (ohco_client)",
+        a: "https://github.com/lee-insu/ohco2.0",
+      },
+      {
+        head: "GitHub (ohco_server)",
+        a: "https://github.com/lee-insu/ohco_server",
+      },
+      {
+        head: "오코2.0 개발 일기",
+        a:
+          "https://velog.io/@lamda/%EC%98%A4%EC%BD%942.0-%EA%B8%B0%ED%9A%8D%EA%B3%BC-%EB%B0%B0%ED%8F%AC%EA%B9%8C%EC%A7%80",
+      },
+      {
+        head: "오코2.0 기획서",
+        a:
+          "https://o365seowon-my.sharepoint.com/:b:/g/personal/201511226_office_seowon_ac_kr/EYkQDXkZkv1OjyemSbrXlksBUSRjPdpQJgPFzFnxxYgExQ?e=3mCtYO",
+      },
+    ],
+  },
+  {
+    id: 2,
     title: "Hey App",
     stack: "React.js , Redux, Firebase, Figma",
     content:
@@ -166,25 +199,6 @@ const contents = [
         a:
           "https://velog.io/@lamda/%ED%97%A4%EC%9D%B4%EC%95%B1-%EA%B0%9C%EB%B0%9C-%EC%9D%BC%EA%B8%B0",
       },
-    ],
-  },
-  {
-    id: 2,
-    title: "OHCO!",
-    stack: "React.js, Firebase",
-    content:
-      "오늘의 날씨에 따라 어울리는 코디를 추천해주는 서비스입니다. Geolocation, OpenWeather API를 통해 유저의 날씨를 받아와 오늘 날씨와 어울리는 코디를 추천합니다. 차후 개인화를 통해 자신의 스타일 코디를 추천해주는 서비스를 업데이트 기획 중입니다.",
-    sub:
-      "- 사진을 업로드 할 수 있는 지원서 기능\n- Geolocation API로 현재 좌표를 받아오고 OpenWeather API를 통해 해당 지역 날씨 데이터 활용\n- 온도에 따라 DB 안의 해당 문서에 접근해 코디 리스트를 유저에게 보여주는 기능 ",
-
-    links: [
-      { head: "OHCO! 페이지", a: "https://ohco.kr/" },
-      {
-        head: "OHCO! 개발 일기",
-        a:
-          "https://velog.io/@lamda/%EC%98%A4%EC%BD%94-1.0-%EA%B0%9C%EB%B0%9C-%EC%9D%BC%EA%B8%B0",
-      },
-      { head: "GitHub", a: "https://github.com/lee-insu/clothes-list-react" },
     ],
   },
   {
@@ -214,6 +228,28 @@ const contents = [
   },
   {
     id: 4,
+    title: "OHCO!",
+    stack: "React.js, Firebase",
+    content:
+      "오늘의 날씨에 따라 어울리는 코디를 추천해주는 서비스입니다. Geolocation, OpenWeather API를 통해 유저의 날씨를 받아와 오늘 날씨와 어울리는 코디를 추천합니다. 차후 개인화를 통해 자신의 스타일 코디를 추천해주는 서비스를 업데이트 기획 중입니다.",
+    sub:
+      "- 사진을 업로드 할 수 있는 지원서 기능\n- Geolocation API로 현재 좌표를 받아오고 OpenWeather API를 통해 해당 지역 날씨 데이터 활용\n- 온도에 따라 DB 안의 해당 문서에 접근해 코디 리스트를 유저에게 보여주는 기능 ",
+
+    links: [
+      {
+        head: "OHCO! 페이지",
+        a: "https://blissful-poitras-97b90b.netlify.app/",
+      },
+      {
+        head: "OHCO! 개발 일기",
+        a:
+          "https://velog.io/@lamda/%EC%98%A4%EC%BD%94-1.0-%EA%B0%9C%EB%B0%9C-%EC%9D%BC%EA%B8%B0",
+      },
+      { head: "GitHub", a: "https://github.com/lee-insu/clothes-list-react" },
+    ],
+  },
+  {
+    id: 5,
     title: "오늘의 기분",
     stack: "JavaScript, Flask, MySQL",
 
@@ -233,6 +269,37 @@ const contents = [
 ];
 
 const activity = [
+  {
+    title: "오코 2.0 코디 서비스 개발, 운영",
+    during: "2022.01.04 ~ 2022.03.31",
+    stacks: "Next.js, Firebase, Graphql, Apollo, Mongodb, Redux, Figma, Nginx",
+    des:
+      "다양한 기준으로 오늘의 날씨에 맞게 코디를 추천해주는 서비스입니다. 기획서를 작성한다음 grapql로 작업하여 데이터를 추가하고 삭제하기 원활해 관리가 쉽도록 했고 Redux를 통해 관리해야 할 데이터를 store에서 관리하게 했습니다. 또한 SEO를 위해 Next.js로 SSR 방식을 채택해 검색이 원할게 되도록 했습니다. ",
+    links: [
+      {
+        head: "OH CO! 페이지",
+        a: "https://ohco.kr/",
+      },
+      {
+        head: "GitHub (ohco_client)",
+        a: "https://github.com/lee-insu/ohco2.0",
+      },
+      {
+        head: "GitHub (ohco_server)",
+        a: "https://github.com/lee-insu/ohco_server",
+      },
+      {
+        head: "오코2.0 개발 일기",
+        a:
+          "https://velog.io/@lamda/%EC%98%A4%EC%BD%942.0-%EA%B8%B0%ED%9A%8D%EA%B3%BC-%EB%B0%B0%ED%8F%AC%EA%B9%8C%EC%A7%80",
+      },
+      {
+        head: "오코2.0 기획서",
+        a:
+          "https://o365seowon-my.sharepoint.com/:b:/g/personal/201511226_office_seowon_ac_kr/EYkQDXkZkv1OjyemSbrXlksBUSRjPdpQJgPFzFnxxYgExQ?e=3mCtYO",
+      },
+    ],
+  },
   {
     title: "헤이앱 페이지, 관리자 페이지 개발",
     during: "2021.09.03 ~ 2021.11.02",
@@ -281,7 +348,10 @@ const activity = [
       "오늘의 날씨에 따라 어울리는 코디를 추천해주는 서비스입니다. 날씨 API로 유저의 현재 날씨를 받아와 오늘 날씨와 어울리는 옷을 추천해주는 서비스입니다. 차후 개인화에 맞춰 코디를 추천해주는 서비스를 기획중입니다.",
     links: [
       { head: "GitHub", a: "https://github.com/lee-insu/clothes-list-react" },
-      { head: "OHCO! 페이지", a: "https://ohco.kr/" },
+      {
+        head: "OHCO! 페이지",
+        a: "https://blissful-poitras-97b90b.netlify.app/",
+      },
     ],
   },
   {
