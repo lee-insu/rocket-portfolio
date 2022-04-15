@@ -168,8 +168,7 @@ const contents = [
       },
       {
         head: "오코2.0 기획서",
-        a:
-          "https://o365seowon-my.sharepoint.com/:b:/g/personal/201511226_office_seowon_ac_kr/EYkQDXkZkv1OjyemSbrXlksBUSRjPdpQJgPFzFnxxYgExQ?e=3mCtYO",
+        a: "https://1drv.ms/b/s!Av1zgG5EdqVFx3Uy8c2sTSd9xgr_",
       },
     ],
   },
@@ -295,8 +294,7 @@ const activity = [
       },
       {
         head: "오코2.0 기획서",
-        a:
-          "https://o365seowon-my.sharepoint.com/:b:/g/personal/201511226_office_seowon_ac_kr/EYkQDXkZkv1OjyemSbrXlksBUSRjPdpQJgPFzFnxxYgExQ?e=3mCtYO",
+        a: "https://1drv.ms/b/s!Av1zgG5EdqVFx3Uy8c2sTSd9xgr_",
       },
     ],
   },
