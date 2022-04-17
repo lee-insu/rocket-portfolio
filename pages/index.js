@@ -109,7 +109,7 @@ const Stacks = () => {
             </Divider>
           </Col>
           <Col xs={24} sm={24} md={24} lg={24} xl={18} className={style.text}>
-            저는 FrontEnd 직군에서 일하는 것을 희망하고 있습니다. <br />
+            저는 FrontEnd, 기획 직군에서 일하는 것을 희망하고 있습니다. <br />
             아래의 기술들은 제가 상상했던 프로젝트를 <br />
             작업하기 위해 배운 기술입니다.
             <br /> 익힌 기술은 더 깊이 있게 이해하려고 노력하고,
