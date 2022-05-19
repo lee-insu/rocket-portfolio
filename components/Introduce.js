@@ -28,7 +28,7 @@ const Introduce = () => {
             안녕하세요
           </Col>
           <Col lg={24} xl={24} xxl={24} className={style.sub_title}>
-            로켓 성장 FE, 기획자 이인수입니다
+            로켓 성장 PM 이인수입니다
           </Col>
         </Col>
         <Col
@@ -48,12 +48,12 @@ const Introduce = () => {
             <br /> 하고 발사 했을 땐 잠재력을
             <br /> 폭발적으로 보여줄 수 있는 <br /> 성장 과정을 거치고 있습니다.
             <br />
-            <br /> 그만큼 성장하기 위해 끝없는 노력과
-            <br /> 새로운 것에 대한 배움으로 <br />
-            익힌 것은 더 깊게, <br />
-            새로운 것은 폭 넓게,
+            <br /> 사용자 관점에서 가설을 세운 기획을 바탕으로
+            <br /> 시각디자인을 전공해 UIUX를 설계하고 <br />
+            직접 개발해 프로덕트를 만들었습니다. <br />
+            배움은 폭 넓고 깊게
             <br /> 시야의 폭을 넓히고 더 성장하는
-            <br /> 프론트엔드 개발자, 기획자 이인수입니다.
+            <br /> 프로덕트 매니저 이인수입니다.
           </p>
         </Col>
       </Row>
@@ -66,7 +66,7 @@ const Introduce = () => {
           <a href="https://velog.io/@lamda">블로그</a>
         </Col>
         <Col className={classnames(style.circle, style.color1)} offset={2}>
-          <a href="https://drive.google.com/file/d/1jEnqz6wHW4nn7CCNLZmt-NCQiUQoabUX/view">
+          <a href="https://drive.google.com/file/d/1SmfARWAu_siWOJ9ZoyA4UT54vI04DnNw/view">
             이력서
           </a>
         </Col>
