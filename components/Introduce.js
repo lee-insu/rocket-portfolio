@@ -41,19 +41,18 @@ const Introduce = () => {
           className={style.text}
         >
           <p>
-            로켓은 추진력을 받아 중력을 <br /> 이겨내고 우주까지 날아갑니다.
+            회사가 목표하는 사용자의 수요에 맞는
+            <br /> 서비스를 만들기 위해 사용자를 인터뷰하고
+            <br /> 데이터를 사용해 서비스의 문제점을
+            <br /> 도출, 해결 방안을 제시했습니다.
             <br />
+            문제점을 토대로 `오늘학교` 서비스에서 <br />
+            타이머,숙제 공유 기능을
             <br />
-            노력과 끈기로 로켓 발사 준비를
-            <br /> 하고 발사 했을 땐 잠재력을
-            <br /> 폭발적으로 보여줄 수 있는 <br /> 성장 과정을 거치고 있습니다.
-            <br />
-            <br /> 사용자 관점에서 가설을 세운 기획을 바탕으로
-            <br /> 시각디자인을 전공해 UIUX를 설계하고 <br />
-            직접 개발해 프로덕트를 만들었습니다. <br />
-            배움은 폭 넓고 깊게
-            <br /> 시야의 폭을 넓히고 더 성장하는
-            <br /> 프로덕트 매니저 이인수입니다.
+            개발 경험을 토대로 기획했고
+            <br /> 프로젝트를 팀원들과 <br />
+            진행 상황 공유, R&R, 우선순위를 명확히 해<br />
+            진행한 경험이 있습니다.
           </p>
         </Col>
       </Row>
@@ -63,10 +62,12 @@ const Introduce = () => {
         </Col>
 
         <Col className={classnames(style.circle, style.color1)} offset={2}>
-          <a href="https://velog.io/@lamda">블로그</a>
+          <a href="https://drive.google.com/file/d/1rO1xwRvTD52xB0BAnCAXmcxz1qN5EWis/view?usp=sharing">
+            포트폴리오
+          </a>
         </Col>
         <Col className={classnames(style.circle, style.color1)} offset={2}>
-          <a href="https://drive.google.com/file/d/1SmfARWAu_siWOJ9ZoyA4UT54vI04DnNw/view">
+          <a href="https://drive.google.com/file/d/1av_fTb9aeeHtnUHfeVgeeBWgUiamSCK1/view?usp=share_link">
             이력서
           </a>
         </Col>
